@@ -269,6 +269,12 @@
                 <configuration>
                     <!-- Only generate skeleton properties for INFO or higher -->
                     <compilerArgument>-Aorg.jboss.logging.tools.level=INFO</compilerArgument>
+                    <annotationProcessorPaths>
+                      <path>
+                        <groupId>org.mapstruct</groupId>
+                        <artifactId>mapstruct-processor</artifactId>
+                      </path>
+                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
             <plugin>
