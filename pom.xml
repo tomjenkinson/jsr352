@@ -274,6 +274,10 @@
                         <groupId>org.mapstruct</groupId>
                         <artifactId>mapstruct-processor</artifactId>
                       </path>
+                      <path>
+                        <groupId>org.jboss.logging</groupId>
+                        <artifactId>jboss-logging-processor</artifactId>
+                      </path>
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
