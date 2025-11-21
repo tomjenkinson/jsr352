@@ -35,7 +35,7 @@
 
     <properties>
         <jboss.home>${project.build.directory}${file.separator}wildfly</jboss.home>
-        <version.org.wildfly>30.0.1.Final</version.org.wildfly>
+        <version.org.wildfly>38.0.1.Final</version.org.wildfly>
         <galleon.fork.embedded>true</galleon.fork.embedded>
     </properties>
 

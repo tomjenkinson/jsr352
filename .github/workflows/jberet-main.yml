@@ -27,7 +27,7 @@ jobs:
       matrix:
         os: [ ubuntu-latest, windows-latest ]
         jdk-distribution: [ temurin ]
-        jdk-version: [ '11', '17', '21' ]
+        jdk-version: [ '11', '17', '21', '25' ]
         feature-pack: ['wildfly-preview-feature-pack', 'wildfly-ee-galleon-pack']
     steps:
       - uses: actions/checkout@v5
